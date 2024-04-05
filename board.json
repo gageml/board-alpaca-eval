@@ -1,0 +1,65 @@
+{
+    "id": "cc1e081b-90c8-47ad-802d-ce6659aeb81b",
+    "title": "AlpacaEval 2.0 Leaderboard",
+    "description": "Imported results from [AlpacaEval 2.0 Leaderboard](https://tatsu-lab.github.io/alpaca_eval/).",
+    "run-select": {
+      "operation": "import",
+      "status": "completed"
+    },
+    "group-select": {
+      "group-by": {
+        "attribute": "model"
+      },
+      "max": {
+        "run-attr": "started"
+      }
+    },
+    "columns": [
+      {
+        "run-attr": "id",
+        "label": "Run ID",
+        "hide": true
+      },
+      {
+        "run-attr": "status",
+        "label": "Run Status",
+        "hide": true
+      },
+      {
+        "run-attr": "operation",
+        "label": "Operation",
+        "hide": true
+      },
+      {
+        "run-attr": "started",
+        "label": "Run Date",
+        "hide": true
+      },
+      {
+        "attribute": "model",
+        "label": "Model"
+      },
+      {
+        "attribute": "filter",
+        "label": "Filter"
+      },
+      {
+        "attribute": "avg_length",
+        "label": "Average Length"
+      },
+      {
+        "attribute": "link",
+        "label": "Link",
+        "hide": true
+      },
+      {
+        "attribute": "samples",
+        "label": "Samples"
+      },
+      {
+        "metric": "win_rate",
+        "label": "Win Rate"
+      }
+    ]
+  }
+  

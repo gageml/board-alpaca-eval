@@ -1,0 +1,4 @@
+.gage/
+data/
+*.pyc
+summary.json 

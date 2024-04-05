@@ -1,0 +1,11 @@
+[import]
+exec = "python results.py"
+description = "Import model results from the Open Compass 2.0 LLM Leaderboard"
+sourcecode = ["results.py", "data/*"]
+config = "results.py#model"
+
+[batch]
+exec = "python batch.py"
+description = "Import Open Compass 2.0 LLM model results as a batch"
+sourcecode = ["results.py", "batch.py", "data/*"]
+config = "batch.py#preview"
